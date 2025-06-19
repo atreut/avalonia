@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Avalonia/DevelopmentChallenge.Avalonia.csproj": {}
+  },
+  "projects": {
+    "/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Avalonia/DevelopmentChallenge.Avalonia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Avalonia/DevelopmentChallenge.Avalonia.csproj",
+        "projectName": "DevelopmentChallenge.Avalonia",
+        "projectPath": "/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Avalonia/DevelopmentChallenge.Avalonia.csproj",
+        "packagesPath": "/home/taylan/.nuget/packages/",
+        "outputPath": "/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Avalonia/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/taylan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/DevelopmentChallenge.Data.csproj": {
+                "projectPath": "/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/DevelopmentChallenge.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
+            "Avalonia.Controls.DataGrid": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/DevelopmentChallenge.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/DevelopmentChallenge.Data.csproj",
+        "projectName": "DevelopmentChallenge.Data",
+        "projectPath": "/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/DevelopmentChallenge.Data.csproj",
+        "packagesPath": "/home/taylan/.nuget/packages/",
+        "outputPath": "/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/taylan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

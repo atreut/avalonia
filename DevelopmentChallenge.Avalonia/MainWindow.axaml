@@ -1,0 +1,73 @@
+<Window
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:viewModels="clr-namespace:DevelopmentChallenge.Avalonia"
+    xmlns:local="clr-namespace:DevelopmentChallenge.Avalonia"
+    x:Class="DevelopmentChallenge.Avalonia.MainWindow"
+    Title="Development Challenge"
+    Width="800"
+    Height="600"
+    x:DataType="viewModels:MainWindowViewModel">
+
+  <Window.Resources>
+    <local:ShapeToVisibilityConverter x:Key="ShapeToVisibilityConverter" />
+  </Window.Resources>
+
+  <Window.DataContext>
+    <viewModels:MainWindowViewModel />
+  </Window.DataContext>
+
+  <Grid>
+    <ScrollViewer>
+      <StackPanel Margin="10" Spacing="10">
+
+        <TextBlock Text="{Binding SpanishTitle}" FontSize="18" FontWeight="Bold" Margin="0 0 0 5" />
+        <StackPanel Orientation="Horizontal">
+          <Border BorderBrush="White" BorderThickness="1" Width="100">
+            <TextBlock Text="Forma" FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" Margin="0,5" />
+          </Border>
+          <Border BorderBrush="White" BorderThickness="1" Width="100">
+            <TextBlock Text="Desenho" FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" Margin="0,5" />
+          </Border>
+          <Border BorderBrush="White" BorderThickness="1" Width="100">
+            <TextBlock Text="Quantidade" FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" Margin="0,5" />
+          </Border>
+          <Border BorderBrush="White" BorderThickness="1" Width="100">
+            <TextBlock Text="Área" FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" Margin="0,5" />
+          </Border>
+          <Border BorderBrush="White" BorderThickness="1" Width="100">
+            <TextBlock Text="Perímetro" FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" Margin="0,5" />
+          </Border>
+        </StackPanel>
+
+        <ItemsControl ItemsSource="{Binding SpanishReport}">
+          <ItemsControl.ItemTemplate>
+            <DataTemplate>
+              <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Spacing="10">
+                <TextBlock Text="{Binding ShapeName}" Width="100" TextAlignment="Center" VerticalAlignment="Center" />
+                <Grid Width="100" Height="70" VerticalAlignment="Center" >
+                  <Rectangle Width="30" Height="30" Fill="Red" Stroke="White" StrokeThickness="1"
+                          IsVisible="{Binding ShapeType, Converter={StaticResource ShapeToVisibilityConverter}, ConverterParameter=Square}" />
+                  <Ellipse Width="30" Height="30" Fill="Blue" Stroke="White" StrokeThickness="1"
+                          IsVisible="{Binding ShapeType, Converter={StaticResource ShapeToVisibilityConverter}, ConverterParameter=Circle}" />
+                  <Polygon Points="25,0 50,50 0,50" Fill="LightCoral" Stroke="White" StrokeThickness="1"
+                          IsVisible="{Binding ShapeType, Converter={StaticResource ShapeToVisibilityConverter}, ConverterParameter=Triangle}" />
+                  <Polygon Points="15,0 35,0 50,50 0,50" Fill="LightGoldenrodYellow" Stroke="White" StrokeThickness="1"
+                           IsVisible="{Binding ShapeType, Converter={StaticResource ShapeToVisibilityConverter}, ConverterParameter=Trapezoid}" />
+                  <Rectangle Width="50" Height="30" Fill="LightPink" Stroke="White" StrokeThickness="1"
+                            IsVisible="{Binding ShapeType, Converter={StaticResource ShapeToVisibilityConverter}, ConverterParameter=Rectangle}" />
+                </Grid>
+                <TextBlock Text="{Binding Quantity}" Width="100" TextAlignment="Center" VerticalAlignment="Center" />
+                <TextBlock Text="{Binding TotalArea, StringFormat=0.00}" Width="100" TextAlignment="Center" VerticalAlignment="Center" />
+                <TextBlock Text="{Binding TotalPerimeter, StringFormat=0.00}" Width="100" TextAlignment="Center"          VerticalAlignment="Center" />
+              </StackPanel>
+            </DataTemplate>
+          </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        
+
+      </StackPanel>
+    </ScrollViewer>
+  </Grid>
+
+</Window>

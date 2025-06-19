@@ -1,0 +1,17 @@
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/bin/Debug/net8.0/DevelopmentChallenge.Data
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/bin/Debug/net8.0/DevelopmentChallenge.Data.deps.json
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/bin/Debug/net8.0/DevelopmentChallenge.Data.runtimeconfig.json
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/bin/Debug/net8.0/DevelopmentChallenge.Data.dll
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/bin/Debug/net8.0/DevelopmentChallenge.Data.pdb
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/bin/Debug/net8.0/Newtonsoft.Json.dll
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/obj/Debug/net8.0/DevelopmentChallenge.Data.csproj.AssemblyReference.cache
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/obj/Debug/net8.0/DevelopmentChallenge.Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/obj/Debug/net8.0/DevelopmentChallenge.Data.AssemblyInfoInputs.cache
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/obj/Debug/net8.0/DevelopmentChallenge.Data.AssemblyInfo.cs
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/obj/Debug/net8.0/DevelopmentChallenge.Data.csproj.CoreCompileInputs.cache
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/obj/Debug/net8.0/DevelopmentChallenge.Data.csproj.CopyComplete
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/obj/Debug/net8.0/DevelopmentChallenge.Data.dll
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/obj/Debug/net8.0/refint/DevelopmentChallenge.Data.dll
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/obj/Debug/net8.0/DevelopmentChallenge.Data.pdb
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/obj/Debug/net8.0/DevelopmentChallenge.Data.genruntimeconfig.cache
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Data/obj/Debug/net8.0/ref/DevelopmentChallenge.Data.dll

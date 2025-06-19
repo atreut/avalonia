@@ -1,0 +1,7 @@
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Avalonia/obj/Debug/net7.0/DevelopmentChallenge.Avalonia.csproj.AssemblyReference.cache
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Avalonia/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Avalonia/obj/Debug/net7.0/Avalonia/resources
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Avalonia/obj/Debug/net7.0/DevelopmentChallenge.Avalonia.GeneratedMSBuildEditorConfig.editorconfig
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Avalonia/obj/Debug/net7.0/DevelopmentChallenge.Avalonia.AssemblyInfoInputs.cache
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Avalonia/obj/Debug/net7.0/DevelopmentChallenge.Avalonia.AssemblyInfo.cs
+/home/taylan/Área de trabalho/DevelopmentChallenge/Source/DevelopmentChallenge.Avalonia/obj/Debug/net7.0/DevelopmentChallenge.Avalonia.csproj.CoreCompileInputs.cache
