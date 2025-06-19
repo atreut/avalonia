@@ -88,7 +88,7 @@ dotnet test DevelopmentChallenge.Data.Tests
 
 ## 🛠 Tecnologias Utilizadas
 
-- [Avalonia UI](https://avaloniaui.net/) — Framework multiplataforma de UI
+- Avalonia UI
 - C# / .NET 8
 - MVVM Pattern
 - xUnit para testes
