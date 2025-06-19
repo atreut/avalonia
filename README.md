@@ -102,6 +102,6 @@ Este projeto foi desenvolvido com foco em modularidade e clareza. A separação 
 ---
 
 ## ✍️ Autor
-Taylan - Desenvolvedor de Software
-taylanatreu@gmail.com
-(47) 98805-2919
+- Taylan - Desenvolvedor de Software
+- taylanatreu@gmail.com
+- (47) 98805-2919
